@@ -8,17 +8,33 @@
 </head>
 <body>
     <header>
-        <h1 class="blue">
-            The Retro 90's shirt Quiz
+        <h1 id="title">
+            <i class="fa-solid fa-futbol"></i>The Vintage Football Shirt Quiz<i class="fa-solid fa-futbol"></i>
         </h1>
-        <p id="myP">Welcome</p>
-        <label>Enter your name</label>
+        <p id="myP">Welcome!</p>
+        <label>Enter your name:</label>
         <input id="name">
         <button id="mySubmit">Submit</button>
-        <div id="question-box">
+        <div id="rules-section">
+            <h2>The Rules</h2>
+            <ul>
+                <li>Enter a username</li>
+                <li>Choose a game type</li>
+                <li>Guess the shirt - will give you multiple answers for the kit shown in the photo, choose the correct one.</li>
+                <li>Guess the year - you will have to choose the correct year for the kit shown.</li>
+                <li>Click a choice from the given suggestions.</li>
+                <li>Answer all questions to finish the quiz.</li>
+                <li>Click on home to restart and try again</li>
+            </ul>
+        </div>
+        <div id="question-box" class="hidden">
             What shirt is this?
+            <div>
+                <img src="assets/images/ger94.webp">
+            </div>
         </div>
     </header>
     <script src="assets/js/data.js"></script>
+    <script src="https://kit.fontawesome.com/bd2391129c.js" crossorigin="anonymous"></script>
 </body>
 </html>
