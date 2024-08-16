@@ -13,8 +13,8 @@ body {
 }
 
 .fa-futbol {
-    font: size 40px;
-    margin: 2px;
+    font-size: 40px;
+    margin: 20px;
 }
 
 #question-box {
@@ -29,8 +29,16 @@ body {
 }
 
 #rules-section {
-    border: solid black 1.5px;
+    border: solid black 2px;
     padding-left: 10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#list {
+    list-style-type: none;
+    
 }
 
 .hidden {
