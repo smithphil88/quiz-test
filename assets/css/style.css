@@ -45,9 +45,21 @@ body {
     display: none !important;
 }
 
-#mySubmit {
+.button {
     font-family: Pixelify Sans;
     color: white;
     background-color: blue;
     border-radius: 3px;
+}
+
+#game-type-container {
+    display:flex;
+    justify-content: space-around;
+}
+
+.game-type {
+    border: solid black 2px;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
 }
